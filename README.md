@@ -101,6 +101,23 @@ streamlit run part3.py
 
 this will open http://localhost:8501/ in your browser
 
+## Explanation of Each Part
+
+Part 1: Data Storage and Retrieval
+In this section, the goal was to evaluate the efficiency of CSV versus Parquet file formats when handling time-series stock price data. The dataset provided was stored in a CSV format, and I investigated whether converting it to Parquet with compression would provide performance benefits, particularly in file size reduction and faster read times. Unlike CSV, Parquet is a columnar storage format, meaning it is optimized for reading only the necessary columns, making it faster and more efficient for analytical workloads. Snappy compression significantly reduces file size while maintaining fast decompression speed.
+
+Here are the takeaways:
+1. Parquet is significantly more efficient than CSV for larger datasets, especially at 10x and 100x scales.
+2. Read time improved by up to ~19.4x at 100x scale with Parquet.
+3. Parquet reduces file size by ~3x with Snappy compression.
+4. However, CSV is still more universally compatible, as Parquet requires specific libraries.
+
+If data size is small (~1x scale) and compatibility across different tools is essential, CSV is fine. However, as data scales to 10x or 100x, Parquet is the superior choice due to smaller file size, much faster read times, and better compression efficiency.
+
+
+
+
+
 ## Author
 
 * **Juan Carlos Katigbak** - *Initial work to Final work* - (https://github.com/juancarloskatigbak8)
