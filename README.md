@@ -32,7 +32,13 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 
 ### Installing (using either macOS/Linux's Terminal or Windows' Command Prompt)
 
-1. Extract Katigbak_300366535_Assignment1.zip and then extract all_stocks_5yr.csv.zip to get file extract all_stocks_5yr.csv
+1. Extraction of file
+
+If getting it from OneDrive:
+Just simply download the Katigbak_300366535_Assignment1 folder and open folder which will show files all_stocks_5yr.csv, README.md, part1.ipynb, part2.ipynb, and part3.py.
+
+If getting it from Github:
+Extract Katigbak_300366535_Assignment1.zip and then extract all_stocks_5yr.csv.zip to get file extract all_stocks_5yr.csv
 
 * Since Katigbak_300366535_Assignment1 downloaded as a ZIP, extract Katigbak_300366535_Assignment1 folder first and extract all_stocks_5yr.csv.zip making sure that the file all_stocks_5yr.csv has been brought out of its folder and placed in Katigbak_300366535_Assignment1 folder together with files README.md, part1.ipynb, part2.ipynb, and part3.py.
 
