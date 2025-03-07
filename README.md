@@ -20,8 +20,8 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 ## Assignment Structure
 
 📂 Katigbak_300366535_Assignment1
-│── part1.py                  # Part 1: Data Storage and Retrieval - evaluating CSV vs Parquet.
-│── part2.py                  # Part 2: Part 2: Data Analysis & Machine Learning - uses 4 technical indicators to enhance the dataset (Simple & Exponential 
+│── part1.ipynb               # Part 1: Data Storage and Retrieval - evaluating CSV vs Parquet.
+│── part2.ipynb               # Part 2: Part 2: Data Analysis & Machine Learning - uses 4 technical indicators to enhance the dataset (Simple & Exponential 
                                 Moving Averages, Moving Average Convergence Divergence, Bollinger Bands, and Stochastic Oscillator), trains Linear 
                                 Regression & Random Forest, and compares Pandas vs Polars.
 │── part3.py                  # Part 3: Creating a Dashboard - built a Streamlit dashboard to visualize benchmark results (csv format vs. parquet with 
@@ -32,9 +32,9 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 
 ### Installing (using either macOS/Linux's Terminal or Windows' Command Prompt)
 
-1. Extract Katigbak_300366535_Assignment1.zip and then extract all_stocks_5yr.csv.zip
+1. Extract Katigbak_300366535_Assignment1.zip and then extract all_stocks_5yr.csv.zip to get file extract all_stocks_5yr.csv
 
-* Since Katigbak_300366535_Assignment1 downloaded as a ZIP, extract Katigbak_300366535_Assignment1 folder first and extract all_stocks_5yr.csv.zip which will be important in making the assignment run.
+* Since Katigbak_300366535_Assignment1 downloaded as a ZIP, extract Katigbak_300366535_Assignment1 folder first and extract all_stocks_5yr.csv.zip making sure that the file all_stocks_5yr.csv has been brought out of its folder and placed in Katigbak_300366535_Assignment1 folder together with files README.md, part1.ipynb, part2.ipynb, and part3.py.
 
 2. Set Up a Virtual Environment (Optional but Recommended)
    
