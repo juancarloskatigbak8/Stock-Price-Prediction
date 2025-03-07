@@ -86,7 +86,13 @@ this will then open Jupyter Notebook in your web browser and once inside Jupyter
 Part 3: Creating a Dashboard - built a Streamlit dashboard to visualize benchmark results (csv format vs. parquet with compression scales of 1x, 10x, and 100x) and stock price predictions per company.
 (Open http://localhost:8501/ in your browser)
 
-using either macOS/Linux's Terminal or Windows' Command Prompt, run:
+using macOS/Linux's Terminal, run:
+
+cd ~/Desktop/Katigbak_300366535_Assignment1
+
+streamlit run part3.py
+
+using Windows' Command Prompt, run:
 
 cd %USERPROFILE%\Desktop\Katigbak_300366535_Assignment1
 (e.g. cd OneDrive\Desktop\Katigbak_300366535_Assignment1) #since Katigbak_300366535_Assignment1 is the folder with the file
