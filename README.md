@@ -59,7 +59,7 @@ using either macOS/Linux's Terminal or Windows' Command Prompt, run:
 
 jupyter notebook
 
-this will then open Jupyter Notebook in your web browser and once inside Jupyter Notebook, open part1.ipynb
+this will then open Jupyter Notebook in your web browser and once inside Jupyter Notebook, open part1.ipynb and run each code using shift + enter
 
 Part 2: Data Analysis & Machine Learning - uses 4 technical indicators to enhance the dataset (Simple & Exponential Moving Averages, Moving Average Convergence Divergence, Bollinger Bands, and Stochastic Oscillator), trains Linear Regression & Random Forest, and compares Pandas vs Polars.
 (Output: Evaluation metrics MAE, MSE, and R² Score used for both algorithms)
@@ -68,7 +68,7 @@ using either macOS/Linux's Terminal or Windows' Command Prompt, run:
 
 jupyter notebook
 
-this will then open Jupyter Notebook in your web browser and once inside Jupyter Notebook, open part2.ipynb
+this will then open Jupyter Notebook in your web browser and once inside Jupyter Notebook, open part2.ipynb and run each code using shift + enter
 
 Part 3: Creating a Dashboard - built a Streamlit dashboard to visualize benchmark results (csv format vs. parquet with compression scales of 1x, 10x, and 100x) and stock price predictions per company.
 (Open http://localhost:8501/ in your browser)
