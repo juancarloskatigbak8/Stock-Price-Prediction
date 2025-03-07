@@ -28,6 +28,7 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
                                 compression scales 
                                 of 1x, 10x, and 100x) and stock price predictions per company.
 │── README.md                 # This documentation
+│── all_stocks_5yr.csv.zip    # This is the dataset to be able to run everything
 
 ### Installing (using either macOS/Linux's Terminal or Windows' Command Prompt)
 
