@@ -57,10 +57,10 @@ env\Scripts\activate
 * Make sure to proactively do this in both Terminal/Command Prompt and Jupyter Notebook just to be sure so that there is no interruption with running the assignment!
 
 For macOS/Linux (Terminal)/For Windows (Command Prompt):
-pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit pyarrow
+pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit pyarrow plotly
 
 For Jupyter Notebook:
-!pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit pyarrow
+!pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit pyarrow plotly
 
 ## Running each part of the assignment
 **Best to run Part 1, 2, and 3 in sequence to ensure that the whole assignment runs
