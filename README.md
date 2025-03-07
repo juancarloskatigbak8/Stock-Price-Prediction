@@ -20,27 +20,24 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 ## Assignment Structure
 
 📂 Katigbak_300366535_Assignment1
-│── 📂 Datasets/              # Contains just the 1x scaled datasets in csv (zipped) and parquet.
-│── 📂 Screenshots/           # Contains screenshots of some of the code to run the project.
-│── 📂 JupyterNotebook/       # Contains Katigbak_300366535_Assignment1.ipynb which contains Part 1 and 2.
 │── part1.py                  # Part 1: Data Storage and Retrieval - evaluating CSV vs Parquet.
-│── part2.py                  # Part 2: Part 2: Data Analysis & Machine Learning - uses 4 technical indicators to enhance the dataset (Simple & Exponential Moving       
-                                Averages, Moving Average Convergence Divergence, Bollinger Bands, and Stochastic Oscillator), trains Linear Regression & Random Forest, 
-                                and compares Pandas vs Polars.
-│── part3.py                  # Part 3: Creating a Dashboard - built a Streamlit dashboard to visualize benchmark results (csv format vs. parquet with compression scales 
+│── part2.py                  # Part 2: Part 2: Data Analysis & Machine Learning - uses 4 technical indicators to enhance the dataset (Simple & Exponential 
+                                Moving Averages, Moving Average Convergence Divergence, Bollinger Bands, and Stochastic Oscillator), trains Linear 
+                                Regression & Random Forest, and compares Pandas vs Polars.
+│── part3.py                  # Part 3: Creating a Dashboard - built a Streamlit dashboard to visualize benchmark results (csv format vs. parquet with 
+                                compression scales 
                                 of 1x, 10x, and 100x) and stock price predictions per company.
-│── requirements.txt          # Required dependencies
 │── README.md                 # This documentation
 
 ### Installing (using either macOS/Linux's Terminal or Windows' Command Prompt)
 
-1. Clone the Repository
+1. Extract Katigbak_300366535_Assignment1.zip and then extract all_stocks_5yr.csv.zip
 
-* If downloaded as a ZIP, extract folder first and make sure to go to Datasets folder and extract the csv dataset which will be important in making the assignment run.
+* Since Katigbak_300366535_Assignment1 downloaded as a ZIP, extract Katigbak_300366535_Assignment1 folder first and extract all_stocks_5yr.csv.zip which will be important in making the assignment run.
 
 2. Set Up a Virtual Environment (Optional but Recommended)
    
-For macOS/Linux (Terminal) :
+For macOS/Linux (Terminal):
 python -m venv env
 source env/bin/activate
 
@@ -50,35 +47,36 @@ env\Scripts\activate
 
 3. Install Dependencies
 
-pip install -r requirements.txt
-
-List of Required Packages in requirements.txt
-
-pandas
-polars
-numpy
-scikit-learn
-matplotlib
-seaborn
-ta
-streamlit
+pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit
 
 ## Running each part of the assignment
 
 Part 1: Data Storage and Retrieval - evaluating CSV vs Parquet.
 (Output: Benchmark results comparing CSV vs Parquet)
 
-python part1.py
+using either macOS/Linux's Terminal or Windows' Command Prompt, run:
+
+jupyter notebook
+
+this will then open Jupyter Notebook in your web browser and once inside Jupyter Notebook, open part1.ipynb
 
 Part 2: Data Analysis & Machine Learning - uses 4 technical indicators to enhance the dataset (Simple & Exponential Moving Averages, Moving Average Convergence Divergence, Bollinger Bands, and Stochastic Oscillator), trains Linear Regression & Random Forest, and compares Pandas vs Polars.
 (Output: Evaluation metrics MAE, MSE, and R² Score used for both algorithms)
 
-python part2.py
+using either macOS/Linux's Terminal or Windows' Command Prompt, run:
+
+jupyter notebook
+
+this will then open Jupyter Notebook in your web browser and once inside Jupyter Notebook, open part2.ipynb
 
 Part 3: Creating a Dashboard - built a Streamlit dashboard to visualize benchmark results (csv format vs. parquet with compression scales of 1x, 10x, and 100x) and stock price predictions per company.
 (Open http://localhost:8501/ in your browser)
 
+using either macOS/Linux's Terminal or Windows' Command Prompt, run:
+
 streamlit run part3.py
+
+this will open http://localhost:8501/ in your browser
 
 ## Author
 
