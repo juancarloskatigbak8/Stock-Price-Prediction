@@ -32,10 +32,10 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 
 ### Installing (using either macOS/Linux's Terminal or Windows' Command Prompt)
 
-1. Extraction of file
+1. Extraction of Katigbak_300366535_Assignment1 folder
 
 If getting it from OneDrive:
-Just simply download the Katigbak_300366535_Assignment1 folder and open folder which will show files all_stocks_5yr.csv, README.md, part1.ipynb, part2.ipynb, and part3.py.
+Just simply download the Katigbak_300366535_Assignment1 folder and open folder which will show files all_stocks_5yr.csv, README.md, part1.ipynb, part2.ipynb, and part3.py as well as "just-in-case" files all_stocks_5yr.parquet, all_stocks_5yr_10x.csv, all_stocks_5yr_10x.parquet, all_stocks_5yr_100x.csv, all_stocks_5yr_100x.parquet, all_stocks_5yr_enhanced_pandas.csv, and all_stocks_5yr_enhanced_polars.csv just in case there are errors like the Jupyter Notebook looking for these files.
 
 If getting it from Github:
 Extract Katigbak_300366535_Assignment1.zip and then extract all_stocks_5yr.csv.zip to get file extract all_stocks_5yr.csv
@@ -63,6 +63,7 @@ For Jupyter Notebook:
 !pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit pyarrow
 
 ## Running each part of the assignment
+**Best to run Part 1, 2, and 3 in sequence to ensure that the whole assignment runs
 
 Part 1: Data Storage and Retrieval - evaluating CSV vs Parquet.
 (Output: Benchmark results comparing CSV vs Parquet)
@@ -86,6 +87,9 @@ Part 3: Creating a Dashboard - built a Streamlit dashboard to visualize benchmar
 (Open http://localhost:8501/ in your browser)
 
 using either macOS/Linux's Terminal or Windows' Command Prompt, run:
+
+cd %USERPROFILE%\Desktop\Katigbak_300366535_Assignment1
+(e.g. cd OneDrive\Desktop\Katigbak_300366535_Assignment1) #since Katigbak_300366535_Assignment1 is the folder with the file
 
 streamlit run part3.py
 
