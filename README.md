@@ -48,7 +48,7 @@ env\Scripts\activate
 
 3. Install Dependencies
 
-pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit
+pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit pyarrow
 
 ## Running each part of the assignment
 
