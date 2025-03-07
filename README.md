@@ -54,7 +54,13 @@ env\Scripts\activate
 
 3. Install Dependencies
 
+* Make sure to proactively do this in both Terminal/Command Prompt and Jupyter Notebook just to be sure so that there is no interruption with running the assignment!
+
+For macOS/Linux (Terminal)/For Windows (Command Prompt):
 pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit pyarrow
+
+For Jupyter Notebook:
+!pip install pandas polars numpy scikit-learn matplotlib seaborn ta streamlit pyarrow
 
 ## Running each part of the assignment
 
