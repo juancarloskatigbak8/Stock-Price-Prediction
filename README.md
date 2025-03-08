@@ -17,7 +17,7 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 - Install Python (>=3.8)
 - Install Jupyter Notebook
 
-## Assignment Structure
+## Assignment Structure (if extracted using Github)
 
 📂 Katigbak_300366535_Assignment1
 │── part1.ipynb               # Part 1: Data Storage and Retrieval - evaluating CSV vs Parquet.
