@@ -408,9 +408,6 @@ Caching the data prevents unnecessary reloading, making the dashboard faster and
 Step 2 - Creating the Dashboard Layout
 The dashboard has two sections, controlled via a sidebar navigation menu.
 
-st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Benchmark Results", "Stock Price Prediction"])
-
 This allows users to switch between:
 
 1. Benchmark Results
