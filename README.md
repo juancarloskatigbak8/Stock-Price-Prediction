@@ -110,27 +110,7 @@ In this section, the goal was to evaluate the efficiency of CSV versus Parquet f
 The first step was to ensure the dataset was accessible in the same directory as the script. This checks if all_stocks_5yr.csv exists before attempting to load it, preventing file not found errors.
 
 2. Converting CSV to Parquet
-After loading the dataset, the next step was to convert it to Parquet format using Snappy compression, a lightweight, high-speed compression algorithm with this code:
-
-import pandas as pd
-import os
-
-script_dir = os.getcwd()
-
-csv_file = os.path.join(script_dir, 'all_stocks_5yr.csv')
-parquet_file = os.path.join(script_dir, 'all_stocks_5yr.parquet')
-
-if not os.path.exists(csv_file):
-    print(f"Error: {csv_file} not found. Please place the CSV file in the same folder as this notebook.")
-else:
-    df = pd.read_csv(csv_file)
-    print(df.head())
-
-    df.to_parquet(parquet_file, engine='pyarrow', compression='snappy')
-    print(f"Parquet file created: {parquet_file}")
-
-    df_parquet = pd.read_parquet(parquet_file, engine='pyarrow')
-    print(df_parquet.head())
+After loading the dataset, the next step was to convert it to Parquet format using Snappy compression, a lightweight, high-speed compression algorithm.
 
 3. Benchmarking Read Performance
 
