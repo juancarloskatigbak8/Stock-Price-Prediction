@@ -107,20 +107,7 @@ Part 1: Data Storage and Retrieval
 In this section, the goal was to evaluate the efficiency of CSV versus Parquet file formats when handling time-series stock price data. The dataset provided was stored in a CSV format, and I investigated whether converting it to Parquet with compression would provide performance benefits, particularly in file size reduction and faster read times. Unlike CSV, Parquet is a columnar storage format, meaning it is optimized for reading only the necessary columns, making it faster and more efficient for analytical workloads. Snappy compression significantly reduces file size while maintaining fast decompression speed.
 
 1. Loading and Validating the Dataset
-The first step was to ensure the dataset was accessible in the same directory as the script. The following code:
-
-import pandas as pd
-import os
-
-csv_file = "all_stocks_5yr.csv"
-
-if not os.path.exists(csv_file):
-    print(f"Error: {csv_file} not found. Please place the CSV file in the same folder as this script.")
-else:
-    df = pd.read_csv(csv_file)
-    print(df.head())
-
-This checks if all_stocks_5yr.csv exists before attempting to load it, preventing file not found errors.
+The first step was to ensure the dataset was accessible in the same directory as the script. This checks if all_stocks_5yr.csv exists before attempting to load it, preventing file not found errors.
 
 2. Converting CSV to Parquet
 After loading the dataset, the next step was to convert it to Parquet format using Snappy compression, a lightweight, high-speed compression algorithm with this code:
@@ -377,31 +364,6 @@ For this, I chose Streamlit as the dashboarding framework because: (1) It provid
 
 Step 1 - Loading & Caching Data
 To improve performance, I cached the benchmark data and stock dataset using @st.cache_data, ensuring data is only loaded once unless the script is restarted.
-
-@st.cache_data
-def load_benchmark_data():
-    benchmark_data = pd.DataFrame({
-        "Algorithm": [
-            "Linear Regression (Pandas)", "Linear Regression (Polars)",
-            "Random Forest (Pandas)", "Random Forest (Polars)"
-        ],
-        "MAE": [57.89, 57.51, 62.61, 60.98],
-        "MSE": [16435, 16498, 17011, 18231],
-        "R² Score": [-0.01, -0.01, -0.04, -0.12]
-    })
-    
-    storage_benchmark = pd.DataFrame({
-        "File Name": ["all_stocks_5yr.csv", "all_stocks_5yr.parquet",
-                      "all_stocks_5yr_10x.csv", "all_stocks_5yr_10x.parquet",
-                      "all_stocks_5yr_100x.csv", "all_stocks_5yr_100x.parquet"],
-        "Kind of File": ["CSV", "Parquet", "CSV", "Parquet", "CSV", "Parquet"],
-        "Scale": ["1x", "1x", "10x", "10x", "100x", "100x"],
-        "Size": ["30.1 MB", "10.6 MB", "295.8 MB", "99.9 MB", "2.96 GB", "997.2 MB"],
-        "Read Time (ms)": [471, 99.5, 11200, 967, 78000, 41600],
-        "Speedup": ["-", "7.5x faster", "-", "6.3x faster", "-", "19.4x faster"]
-    })
-    
-    return benchmark_data, storage_benchmark
     
 Caching the data prevents unnecessary reloading, making the dashboard faster and is useful when switching between different stock tickers.
 
