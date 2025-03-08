@@ -36,12 +36,12 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 1. Extraction of Katigbak_300366535_Assignment1 folder
 
 If getting it from OneDrive:
-Just simply download the Katigbak_300366535_Assignment1 folder and open folder which will show files all_stocks_5yr.csv, README.md, part1.ipynb, part2.ipynb, and part3.py as well as "just-in-case" files all_stocks_5yr.parquet, all_stocks_5yr_enhanced_pandas.csv, and all_stocks_5yr_enhanced_polars.csv just in case there are errors like the Jupyter Notebook looking for these files.
+Just simply download the Katigbak_300366535_Assignment1 folder and open folder which will show files dashboard.pdf, all_stocks_5yr.csv, README.md, part1.ipynb, part2.ipynb, and part3.py as well as "just-in-case" files all_stocks_5yr.parquet, all_stocks_5yr_enhanced_pandas.csv, and all_stocks_5yr_enhanced_polars.csv just in case there are errors like the Jupyter Notebook looking for these files.
 
 If getting it from Github:
 Extract Katigbak_300366535_Assignment1.zip and then extract all_stocks_5yr.csv.zip to get file extract all_stocks_5yr.csv
 
-*Note: Since Katigbak_300366535_Assignment1 downloaded as a ZIP, extract Katigbak_300366535_Assignment1 folder first and extract all_stocks_5yr.csv.zip making sure that the file all_stocks_5yr.csv has been brought out of its folder and placed in Katigbak_300366535_Assignment1 folder together with files README.md, part1.ipynb, part2.ipynb, and part3.py because ideally the assignment should be run sequentially starting with Part 1, then Part 2, and lastly Part 3 with all_stocks_5yr.csv as the crucial file to be able to create the other csv files to run everything.
+*Note: Since Katigbak_300366535_Assignment1 downloaded as a ZIP, extract Katigbak_300366535_Assignment1 folder first and extract all_stocks_5yr.csv.zip making sure that the file all_stocks_5yr.csv has been brought out of its folder and placed in Katigbak_300366535_Assignment1 folder together with files dashboard.pdf, README.md, part1.ipynb, part2.ipynb, and part3.py because ideally the assignment should be run sequentially starting with Part 1, then Part 2, and lastly Part 3 with all_stocks_5yr.csv as the crucial file to be able to create the other csv files to run everything.
 
 2. Set Up a Virtual Environment (Optional but Recommended)
    
