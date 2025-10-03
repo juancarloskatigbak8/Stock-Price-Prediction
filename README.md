@@ -3,9 +3,9 @@
 Stock Price Prediction (S&P 500)
 
 
-## About the Assignment
+## About the Project
 
-The purpose of this assignment is to combine research, benchmarking and coding using the provided time-series dataset of stock prices for S&P 500 companies. The assignment is divided into three parts, each with its own research and coding components.
+The purpose of this project is to combine research, benchmarking and coding using the provided time-series dataset of stock prices for S&P 500 companies. The project is divided into three parts, each with its own research and coding components.
 
 Objectives
 Part 1: Storing and retrieving data using csv vs. parquet with compression scales of 1x, 10x, and 100x.
@@ -19,7 +19,7 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 
 ## Assignment Structure (if extracted using Github)
 
-📂 Katigbak_300366535_Assignment1
+📂 Stock-Price-Prediction
 │── part1.ipynb               # Part 1: Data Storage and Retrieval - evaluating CSV vs Parquet.
 │── part2.ipynb               # Part 2: Part 2: Data Analysis & Machine Learning - uses 4 technical indicators to enhance the dataset (Simple & Exponential 
                                 Moving Averages, Moving Average Convergence Divergence, Bollinger Bands, and Stochastic Oscillator), trains Linear 
@@ -33,15 +33,15 @@ Part 3: Creating a visual dashboard for the results using a dashboard library wi
 
 ### Installing (using either macOS/Linux's Terminal or Windows' Command Prompt)
 
-1. Extraction of Katigbak_300366535_Assignment1 folder
+1. Extraction of Stock-Price-Prediction folder
 
 If getting it from OneDrive:
-Just simply download the Katigbak_300366535_Assignment1 folder and open folder which will show files dashboard.pdf, all_stocks_5yr.csv, README.md, part1.ipynb, part2.ipynb, and part3.py as well as "just-in-case" files all_stocks_5yr.parquet, all_stocks_5yr_enhanced_pandas.csv, and all_stocks_5yr_enhanced_polars.csv just in case there are errors like the Jupyter Notebook looking for these files.
+Just simply download the Stock-Price-Prediction folder and open folder which will show files dashboard.pdf, all_stocks_5yr.csv, README.md, part1.ipynb, part2.ipynb, and part3.py as well as "just-in-case" files all_stocks_5yr.parquet, all_stocks_5yr_enhanced_pandas.csv, and all_stocks_5yr_enhanced_polars.csv just in case there are errors like the Jupyter Notebook looking for these files.
 
 If getting it from Github:
-Extract Katigbak_300366535_Assignment1.zip and then extract all_stocks_5yr.csv.zip to get file extract all_stocks_5yr.csv
+Extract Stock-Price-Prediction.zip and then extract all_stocks_5yr.csv.zip to get file extract all_stocks_5yr.csv
 
-*Note: Since Katigbak_300366535_Assignment1 downloaded as a ZIP, extract Katigbak_300366535_Assignment1 folder first and extract all_stocks_5yr.csv.zip making sure that the file all_stocks_5yr.csv has been brought out of its folder and placed in Katigbak_300366535_Assignment1 folder together with files dashboard.pdf, README.md, part1.ipynb, part2.ipynb, and part3.py because ideally the assignment should be run sequentially starting with Part 1, then Part 2, and lastly Part 3 with all_stocks_5yr.csv as the crucial file to be able to create the other csv files to run everything.
+*Note: Since Stock-Price-Prediction downloaded as a ZIP, extract Stock-Price-Prediction folder first and extract all_stocks_5yr.csv.zip making sure that the file all_stocks_5yr.csv has been brought out of its folder and placed in Stock-Price-Prediction folder together with files dashboard.pdf, README.md, part1.ipynb, part2.ipynb, and part3.py because ideally the assignment should be run sequentially starting with Part 1, then Part 2, and lastly Part 3 with all_stocks_5yr.csv as the crucial file to be able to create the other csv files to run everything.
 
 2. Set Up a Virtual Environment (Optional but Recommended)
    
@@ -89,14 +89,14 @@ Part 3: Creating a Dashboard - built a Streamlit dashboard to visualize benchmar
 
 using macOS/Linux's Terminal, run:
 
-cd ~/Desktop/Katigbak_300366535_Assignment1
+cd ~/Desktop/Stock-Price-Prediction
 
 streamlit run part3.py
 
 using Windows' Command Prompt, run:
 
-cd %USERPROFILE%\Desktop\Katigbak_300366535_Assignment1
-(e.g. cd OneDrive\Desktop\Katigbak_300366535_Assignment1) #since Katigbak_300366535_Assignment1 is the folder with the file
+cd %USERPROFILE%\Desktop\Stock-Price-Prediction
+(e.g. cd OneDrive\Desktop\Stock-Price-Prediction) #since Stock-Price-Prediction is the folder with the file
 
 streamlit run part3.py
 
