@@ -1,7 +1,7 @@
-# Assignment Title
+# Project Title
 
-Assignment 1: Stock Price Prediction (S&P 500)
-presented by Juan Carlos Katigbak 300366535 to Nikhil Bhardwaj CSIS4260 Special Topics in Data Analytics Section 001
+Stock Price Prediction (S&P 500)
+
 
 ## About the Assignment
 
