@@ -32,7 +32,7 @@ Parquet with Snappy compression consistently outperformed CSV, with the gap wide
 | 10x | 11.2 s | 967 ms | 11.6x faster |
 | 100x | 78 s | 41.6 s | 1.9x faster |
 
-At 1x and 10x scale, Parquet is clearly the faster format. At 100x scale (simulating extreme data growth), both formats slow significantly — Parquet still outperforms but the gap narrows, reflecting real-world limits of columnar reads on very large files.
+At 1x and 10x scale, Parquet is clearly the faster format. At 100x scale (simulating extreme data growth), both formats slow significantly: Parquet still outperforms but the gap narrows, reflecting real-world limits of columnar reads on very large files.
 
 ---
 
@@ -47,7 +47,7 @@ Four technical indicators were engineered as features: Simple Moving Average (SM
 | Random Forest (Pandas) | 62.61 | 17,011 | -0.04 |
 | Random Forest (Polars) | 60.98 | 18,231 | -0.12 |
 
-The negative R2 scores confirm what financial literature widely supports: technical indicators alone are insufficient for reliable next-day price prediction. Stock prices are driven by factors well outside the scope of moving averages and momentum signals. The value of the ML component here is in the benchmarking methodology — comparing how Pandas and Polars handle the same modeling pipeline — rather than in prediction accuracy.
+The negative R2 scores confirm what financial literature widely supports: technical indicators alone are insufficient for reliable next-day price prediction. Stock prices are driven by factors well outside the scope of moving averages and momentum signals. The value of the ML component here is in the benchmarking methodology: comparing how Pandas and Polars handle the same modeling pipeline, rather than in prediction accuracy.
 
 ---
 
