@@ -18,7 +18,7 @@ A three-part data engineering and analysis project built on five years of S&P 50
 
 ![Stock Price Prediction Dashboard](dashboard_screenshot.png)
 
-*Interactive Streamlit dashboard — Panel A shows storage and model benchmarks, Panel B shows actual vs predicted prices with technical indicators for any selected ticker.*
+*Interactive Streamlit dashboard - Panel A shows storage and model benchmarks, Panel B shows actual vs predicted prices with technical indicators for any selected ticker.*
 
 ---
 
@@ -53,11 +53,11 @@ The negative R2 scores confirm what financial literature widely supports: techni
 
 ## Tech Stack
 
-- **Python** — pandas, polars, scikit-learn, streamlit, plotly, pyarrow
-- **Storage formats** — CSV, Parquet (Snappy compression)
-- **ML algorithms** — Linear Regression, Random Forest
-- **Technical indicators** — SMA, EMA, MACD, Bollinger Bands
-- **Dashboard** — Streamlit with Plotly interactive charts
+- **Python** - pandas, polars, scikit-learn, streamlit, plotly, pyarrow
+- **Storage formats** - CSV, Parquet (Snappy compression)
+- **ML algorithms** - Linear Regression, Random Forest
+- **Technical indicators** - SMA, EMA, MACD, Bollinger Bands
+- **Dashboard** - Streamlit with Plotly interactive charts
 
 ---
 
@@ -82,19 +82,19 @@ Stock-Price-Prediction/
 pip install pandas polars numpy scikit-learn streamlit plotly pyarrow ta
 ```
 
-**Step 1 — Extract the dataset**
+**Step 1 - Extract the dataset**
 
 Extract `all_stocks_5yr.csv.zip` and place `all_stocks_5yr.csv` in the project root.
 
-**Step 2 — Run Part 1 (Storage Benchmarking)**
+**Step 2 - Run Part 1 (Storage Benchmarking)**
 
 Open `part1.ipynb` in Jupyter Notebook and run all cells. This generates the Parquet files and benchmark results.
 
-**Step 3 — Run Part 2 (ML Modeling)**
+**Step 3 - Run Part 2 (ML Modeling)**
 
 Open `part2.ipynb` and run all cells. This produces the enhanced dataset and model evaluation metrics.
 
-**Step 4 — Run Part 3 (Dashboard)**
+**Step 4 - Run Part 3 (Dashboard)**
 
 ```
 streamlit run part3.py
@@ -106,4 +106,4 @@ Open `http://localhost:8501` in your browser.
 
 ## Author
 
-Juan Carlos Katigbak — [GitHub](https://github.com/juancarloskatigbak8) | [LinkedIn](https://linkedin.com/in/juan-carlos-katigbak)
+Juan Carlos Katigbak - [GitHub](https://github.com/juancarloskatigbak8) | [LinkedIn](https://linkedin.com/in/juan-carlos-katigbak)
