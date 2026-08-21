@@ -18,7 +18,7 @@ A three-part data engineering and analysis project built on five years of S&P 50
 
 ![Stock Price Prediction Dashboard](dashboard_screenshot.png)
 
-*Interactive Streamlit dashboard - Panel A shows storage and model benchmarks, Panel B shows actual vs predicted prices with technical indicators for any selected ticker.*
+*Interactive Streamlit dashboard: Panel A shows storage and model benchmarks, Panel B shows actual vs predicted prices with technical indicators for any selected ticker.*
 
 ---
 
