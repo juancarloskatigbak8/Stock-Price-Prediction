@@ -65,10 +65,11 @@ The negative R2 scores confirm what financial literature widely supports: techni
 
 ```
 Stock-Price-Prediction/
-├── part1.ipynb                  # Storage benchmarking — CSV vs Parquet at 1x, 10x, 100x scale
-├── part2.ipynb                  # Dataframe benchmarking — Pandas vs Polars, ML model training
-├── part3.py                     # Streamlit dashboard — benchmark visualization and stock predictions
-├── all_stocks_5yr.csv.zip       # Dataset — extract before running
+├── part1.ipynb              # Storage benchmarking — CSV vs Parquet at 1x, 10x, 100x scale
+├── part2.ipynb              # Dataframe benchmarking — Pandas vs Polars, ML model training
+├── part3.py                 # Streamlit dashboard — benchmark visualization and stock pred
+├── all_stocks_5yr.csv.zip   # Dataset — extract before running
+├── dashboard_screenshot.png # Dashboard preview
 └── README.md
 ```
 
